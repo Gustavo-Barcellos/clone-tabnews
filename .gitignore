@@ -1,4 +1,2 @@
 .next
-.nvmrc
 node_modules
-package-lock.json
