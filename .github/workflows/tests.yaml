@@ -1,0 +1,28 @@
+# .github/workflows/tests.yaml
+name: Automated Tests
+
+on: pull_request
+
+jobs:
+  jest: 
+    name: Jest Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.11.0'   # ou simplesmente '20.x'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Ensure env file
+        run: |
+          if [ -f .env.development ]; then
+            cp .env.development .env
+          fi
+
+      - name: Run tests
+        run: npm test
