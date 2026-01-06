@@ -1,10 +1,10 @@
-name: Automated Tests
+name: Linting
 
 on: pull_request
 
 jobs:
-  jest: 
-    name: Jest Ubuntu
+  prettier: 
+    name: Prettier
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +23,9 @@ jobs:
             cp .env.development .env
           fi
 
-      - name: Run tests
-        run: npm test
+      - name: Run lint prettier fix
+        run: npm run lint:prettier:fix
+
+
+      - name: Run lint prettier check
+        run: npm run lint:prettier:check
