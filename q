@@ -1,0 +1,230 @@
+[33mcommit 8e9912f99f38922ce18fd4b71941f1f086845579[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlint-quality-actions[m[33m)[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Jan 7 15:17:43 2026 -0300
+
+    adds `ESLint` job in `Linting` GitHub Action
+
+[33mcommit fad94bae2c1d8f718ab8f9a88abd2c088c12b898[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Jan 7 15:15:28 2026 -0300
+
+    adds `lint:eslint:check`script with `ESLint`
+
+[33mcommit 0f67a29951ad0d1640eca83c42bd42ee0d9437b2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 0c76b47 9e52d7f
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Tue Jan 6 11:50:12 2026 -0300
+
+    Merge pull request #17 from Gustavo-Barcellos/lint-format-actions
+    
+    Lint format actions
+
+[33mcommit 9e52d7fe3238aa8d2bdf4d82a7be634c39bb56f2[m[33m ([m[1;31morigin/lint-format-actions[m[33m)[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Tue Jan 6 11:38:03 2026 -0300
+
+    adds `linting` GitHub Action
+
+[33mcommit ff8b16d1a6adb2ab10fb8794eaf05234999c0f0c[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Tue Jan 6 11:35:06 2026 -0300
+
+    adds `linting` GitHub Action
+
+[33mcommit 0c76b47e00ec3b15b066943e21b5ea2bf6146174[m
+Merge: cbc75e2 754e4a4
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Mon Jan 5 11:32:41 2026 -0300
+
+    Merge pull request #15 from Gustavo-Barcellos/actions
+    
+    adds `Automated Tests` GitHub Action
+
+[33mcommit 754e4a4887bfae297b633a084e5514f5589db4b5[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Mon Jan 5 10:50:51 2026 -0300
+
+    adds `Automated Tests` GitHub Action
+
+[33mcommit cbc75e252fd385a7f28a97a300f0228bfaec47a5[m
+Merge: 5ed5ea8 2d3f43c
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Jan 2 13:55:03 2026 -0300
+
+    Merge pull request #14 from Gustavo-Barcellos/fix-npm-test
+    
+    makes `npm test` more robust with `async-retry` and `orchestrator.js`
+
+[33mcommit 2d3f43c1cf1b37f467c2955e165341be0cccbed2[m[33m ([m[1;31morigin/fix-npm-test[m[33m)[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Sun Dec 28 13:15:59 2025 -0300
+
+    makes `npm test` more robust with `async-retry` and `orchestrator.js`
+
+[33mcommit 5ed5ea8cc06d978181236e1fa1d6b726998ac34b[m[33m ([m[1;31morigin/wait-for-postgres[m[33m, [m[1;32mwait-for-postgres[m[33m)[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Sun Dec 28 11:12:25 2025 -0300
+
+    adds `wait-for-postgres` script
+
+[33mcommit 87b1fe2f618f2d6cb076f102d58dd12ac5089885[m[33m ([m[1;31morigin/fix-migrations-endpoint[m[33m)[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Dec 24 13:33:38 2025 -0300
+
+    fix `migrations` endpoint connection bug
+
+[33mcommit acaae7863de04f720a0b93e7662d6566b9118502[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Mon Dec 22 14:46:12 2025 -0300
+
+    adds `/api/v1/migrations` endpoint
+
+[33mcommit 0a0235515e6a050b8d0d49b47f4cd8a2448b4869[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Thu Dec 18 18:38:47 2025 -0300
+
+    add migrations scripts
+
+[33mcommit bc5e2ed93428a1b063304529626cc42b13bcd916[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Dec 17 16:30:06 2025 -0300
+
+    add a more robust ssl configuration method
+
+[33mcommit d763c79a9fc498e55a341cbeb84d2dff7dd35333[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Dec 17 14:41:36 2025 -0300
+
+    handles database ssl connection
+
+[33mcommit 86f00a70c124ffc2f0fd994891bfbe627903087d[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Tue Dec 16 13:30:18 2025 -0300
+
+    makes `database.js` `client.connect()` more robust to errors
+
+[33mcommit 5b7ecd0c78a21e29391932104e299a624616554d[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Mon Dec 15 14:14:14 2025 -0300
+
+    finish `/api/v1/status` endpoint
+
+[33mcommit 3745760c0538422629fb74bb7be5b61cb14642e8[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Mon Dec 15 14:13:22 2025 -0300
+
+    Make `database.js` more robust to error handling
+
+[33mcommit 73fe3d768f2c4923099cbe402aedf58798efd38c[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Thu Dec 11 18:58:55 2025 -0300
+
+    add services script
+
+[33mcommit c0ace98a3cbc786dd1f03c8453859f1525401176[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Thu Dec 11 18:43:27 2025 -0300
+
+    add `jsconfig.json` file
+
+[33mcommit 465760cb2d5cbdf1f5e905b7afaf4c48cb7ae08b[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Thu Dec 11 16:41:14 2025 -0300
+
+    move `.env` file to `.env.development`
+
+[33mcommit 172604c1434aff6a9e84006ae3203371cf96eae0[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Thu Dec 11 14:25:01 2025 -0300
+
+    add `database.js` and `.env` files
+
+[33mcommit 91cd0dc22d7ea17ea3fcfadb04d1132818247731[m
+Author: Gustavo <gustavobarcellosbsn@gmail.com>
+Date:   Wed Dec 10 12:03:56 2025 -0300
+
+    add `compose` config file with database service
+
+[33mcommit 27d8335bb7f78fad403747b4312eb4e8871bc2ac[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Mon Dec 8 14:34:41 2025 -0300
+
+    add `api/v1/status` endpoint
+
+[33mcommit 72051ad878640a44cd1b8fe0788c8743c1ab6b44[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Sat Dec 6 11:23:00 2025 -0300
+
+    Instala `prettier`
+
+[33mcommit 294b50be43209670a63813b0b8dcbb4eed5ee0e3[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Sat Dec 6 11:03:46 2025 -0300
+
+    Instala `Jest` e cria scripts
+
+[33mcommit 664c94e57c89beac1f10d07d9bc8e8b2370865e2[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Sat Dec 6 10:56:28 2025 -0300
+
+    Estruturação de pastas
+
+[33mcommit c57ef1d64c6eca9b64c9b6d4d73a385b0ae99fff[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Wed Nov 26 15:23:35 2025 -0300
+
+    arquivo .nvmrc, .gitignore e mensagem pages
+
+[33mcommit eaa5cc658b12ba653d49d4dd0892b23dfb803a5d[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Wed Nov 26 15:21:31 2025 -0300
+
+    Adicionar aquivo .nvmrc
+
+[33mcommit e4a070941fd79c9ad013a67ffc8feb748f0b8013[m
+Author: gustavo barcellos <gustavobarcellos@gmail.com>
+Date:   Wed Nov 26 14:46:59 2025 -0300
+
+    WSL
+
+[33mcommit d109459f2b4a03f354cbb8b8d5b4f2b3b903302c[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Wed Nov 26 14:14:49 2025 -0300
+
+    .gitignore
+
+[33mcommit b73d8538cfc8b7d19ee814d1692ac9bd2f288708[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Nov 21 15:53:07 2025 -0300
+
+    Teste
+
+[33mcommit a3fab2ba721a36b86ba96e42fd6060ed1898c79a[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Nov 21 15:40:07 2025 -0300
+
+    Aquivo .gitignore
+
+[33mcommit 04c073433320b02856de5204c566eaf30ea23797[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Nov 21 15:35:05 2025 -0300
+
+    Alterado título
+
+[33mcommit 684bbb65ff798060dd902d29c04ae898efafe2fe[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Nov 21 15:30:19 2025 -0300
+
+    Título da página inicial alterado de 'Teste1' -> 'Teste2'
+
+[33mcommit e3271c96d1b4cff784f248c0eac7431e17d3b0e8[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Fri Nov 21 15:17:39 2025 -0300
+
+    Primeiro commit
+
+[33mcommit 3b471ac58f71cde62872f2de0911e555beee6087[m
+Author: Gustavo Barcellos <gustavobarcellosbsn@gmail.com>
+Date:   Wed Nov 26 14:45:12 2025 -0300
+
+    Initial commit
