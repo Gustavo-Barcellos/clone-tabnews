@@ -50,9 +50,5 @@ jobs:
               cp .env.development .env
             fi
 
-        - name: Run lint eslint fix
-          run: npm run lint:eslint:fix
-
-
         - name: Run lint eslint check
           run: npm run lint:eslint:check
